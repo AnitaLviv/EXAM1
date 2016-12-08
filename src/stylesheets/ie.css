@@ -1,0 +1,848 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 22, ../sass/ie.scss */
+.wrapp {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/ie.scss */
+header {
+  width: 100%;
+  height: 540px;
+  background: #c09c8f;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/ie.scss */
+.header__container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 41, ../sass/ie.scss */
+.info_client {
+  width: 183px;
+  margin: 17px auto 0 auto;
+  height: 35px;
+}
+
+/* line 47, ../sass/ie.scss */
+.log-in, .sing-up {
+  text-decoration: none;
+  display: inline-block;
+  width: 85px;
+  padding-top: 7px;
+  height: 23px;
+  border: 2px solid;
+  border-color: transparent;
+  border-radius: 18px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+
+/* line 64, ../sass/ie.scss */
+.sing-up {
+  margin-left: 5px;
+}
+
+/* line 68, ../sass/ie.scss */
+.log-in:hover {
+  border-color: #fff;
+}
+
+/* line 72, ../sass/ie.scss */
+.sing-up:hover {
+  border-color: #fff;
+}
+
+/* line 76, ../sass/ie.scss */
+.header-text {
+  margin-top: 119px;
+  color: #fff;
+}
+
+/* line 81, ../sass/ie.scss */
+.header-text__upper-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 89, ../sass/ie.scss */
+.header-text__title {
+  display: block;
+  width: 280px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 35px auto 0 auto;
+  text-align: center;
+}
+
+/* line 100, ../sass/ie.scss */
+.header-text__under-title {
+  width: 220px;
+  margin: 17px auto 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* line 109, ../sass/ie.scss */
+.header-text__button {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 277px;
+  height: 28px;
+  margin: 18px auto 0 auto;
+  padding-top: 12px;
+  background-color: #ff4e50;
+  border-radius: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* line 125, ../sass/ie.scss */
+.header-text__button:hover {
+  background-color: #ff8082;
+}
+
+/* line 129, ../sass/ie.scss */
+.how-it-works {
+  margin: 35px auto 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 135, ../sass/ie.scss */
+.how-it-works__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+
+/* line 143, ../sass/ie.scss */
+.jcarousel_wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 240px;
+  margin: 10px auto 0 auto;
+  border-radius: 5px;
+}
+
+/* line 152, ../sass/ie.scss */
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 156, ../sass/ie.scss */
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 164, ../sass/ie.scss */
+.jcarousel li {
+  display: block;
+  height: 240px;
+  width: 300px;
+  float: left;
+}
+
+/* line 171, ../sass/ie.scss */
+.jcarousel__li--first {
+  background-image: url(../img/photo1.png);
+  background-position: center;
+}
+
+/* line 176, ../sass/ie.scss */
+.jcarousel__li--second {
+  background-image: url(../img/photo2.png);
+  background-position: center;
+}
+
+/* line 181, ../sass/ie.scss */
+.jcarousel__li--third {
+  background-image: url(../img/photo3.png);
+  background-position: center;
+}
+
+/* line 186, ../sass/ie.scss */
+.jcarousel__text {
+  position: absolute;
+  width: 300px;
+  height: 240px;
+  z-index: 2;
+}
+
+/* line 193, ../sass/ie.scss */
+.jcarousel__text--button {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+  width: 70px;
+  height: 14px;
+  padding-top: 4px;
+  background-color: #ff4e50;
+  text-align: center;
+  border-radius: 14px;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+/* line 211, ../sass/ie.scss */
+.jcarousel__text--button:hover {
+  background-color: #ff8082;
+}
+
+/* line 215, ../sass/ie.scss */
+.jcarousel__text--title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  margin: 20px 0 0 22px;
+}
+
+/* line 223, ../sass/ie.scss */
+.jcarousel__text--text {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #fff;
+  margin: 18px 0 0 22px;
+  width: 265px;
+}
+
+/* line 232, ../sass/ie.scss */
+.jcarousel_next {
+  display: none;
+}
+
+/* line 236, ../sass/ie.scss */
+.jcarousel_prev {
+  display: none;
+}
+
+/* line 240, ../sass/ie.scss */
+.partners {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 246, ../sass/ie.scss */
+.partners__container {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 252, ../sass/ie.scss */
+.partners__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  margin-top: 38px;
+  padding: 0 20px;
+}
+
+/* line 262, ../sass/ie.scss */
+.partner-block {
+  width: 200px;
+  height: 206px;
+  margin: 20px auto 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 270, ../sass/ie.scss */
+.partner-block--second {
+  height: 235px;
+}
+
+/* line 274, ../sass/ie.scss */
+.partner-block__photo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 279, ../sass/ie.scss */
+.partner-block__icon {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+/* line 285, ../sass/ie.scss */
+.partner-block__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 18px;
+}
+
+/* line 294, ../sass/ie.scss */
+.partner-block__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #333;
+  margin-top: 14px;
+  text-align: center;
+}
+
+/* line 303, ../sass/ie.scss */
+.partners__button {
+  display: block;
+  text-decoration: none;
+  width: 275px;
+  height: 23px;
+  padding-top: 13px;
+  font-family: "Montserrat", sans-serif;
+  color: #ff4e50;
+  text-align: center;
+  border: 2px solid #ff4e50;
+  border-radius: 21px;
+  margin: 30px auto 0 auto;
+}
+
+/* line 317, ../sass/ie.scss */
+.partners__button:hover {
+  border-color: #ff8082;
+}
+
+/* line 321, ../sass/ie.scss */
+.ideas {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 328, ../sass/ie.scss */
+.ideas__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  margin: 35px 0 25px 0;
+}
+
+/* line 337, ../sass/ie.scss */
+.grid--item {
+  height: 310px;
+  width: 300px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* line 346, ../sass/ie.scss */
+.grid--item__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  position: absolute;
+  width: 245px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -122px;
+  margin-top: -11px;
+}
+
+/* line 362, ../sass/ie.scss */
+.search {
+  width: 300px;
+  margin: 37px auto 0 auto;
+}
+
+/* line 367, ../sass/ie.scss */
+.search__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+/* line 376, ../sass/ie.scss */
+.searcher__under-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #333;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+/* line 385, ../sass/ie.scss */
+input [type="text"] {
+  width: 265px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #b8b8b8;
+  padding-left: 15px;
+}
+
+/* line 399, ../sass/ie.scss */
+input [type="submit"] {
+  width: 280px;
+  height: 40px;
+  background: #ff4e50;
+  border-radius: 25px;
+  border: none;
+  display: block;
+  margin: 10px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 415, ../sass/ie.scss */
+input [type="submit"]:hover {
+  background: #ff8082;
+}
+
+/* line 419, ../sass/ie.scss */
+footer {
+  border-top: 4px solid #ff4e50;
+  padding-bottom: 18px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+/* line 427, ../sass/ie.scss */
+.footer__title {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #ff4e50;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 437, ../sass/ie.scss */
+.footer__company {
+  margin-top: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 448, ../sass/ie.scss */
+.footer__partners {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 457, ../sass/ie.scss */
+.footer__navigation {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: 6px auto 0 auto;
+}
+
+/* line 464, ../sass/ie.scss */
+.footer__navigation--link {
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #808080;
+  margin-right: 12px;
+  height: 16px;
+}
+
+/* line 476, ../sass/ie.scss */
+.footer__navigation--last {
+  margin-right: 0;
+}
+
+/* line 480, ../sass/ie.scss */
+.footer__navigation--link:hover {
+  color: #595959;
+}
+
+/* line 484, ../sass/ie.scss */
+.footer__logo {
+  margin-top: 17px;
+}
+
+/* line 487, ../sass/ie.scss */
+.footer__logo img {
+  display: block;
+  margin: 8px auto 0 auto;
+}
+
+/* line 492, ../sass/ie.scss */
+.footer__image {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9px;
+  color: #cccccc;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 501, ../sass/ie.scss */
+.autorization {
+  float: right;
+  margin: 42px 53px 0 0;
+}
+
+/* line 506, ../sass/ie.scss */
+.header-text {
+  margin-top: 224px;
+}
+
+/* line 510, ../sass/ie.scss */
+.header-text__upper-title {
+  position: absolute;
+  top: 52px;
+  left: 55px;
+}
+
+/* line 516, ../sass/ie.scss */
+.header-text__title {
+  width: 492px;
+  font-size: 52px;
+}
+
+/* line 521, ../sass/ie.scss */
+.header-text__under-title {
+  width: 305px;
+}
+
+/* line 525, ../sass/ie.scss */
+.how-it-works {
+  margin-top: 95px;
+  width: 745px;
+}
+
+/* line 530, ../sass/ie.scss */
+.jcarousel_wrapper {
+  float: left;
+  width: 235px;
+  height: 400px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+/* line 537, ../sass/ie.scss */
+.jcarousel_wrapper li {
+  width: 235px;
+  height: 400px;
+}
+
+/* line 542, ../sass/ie.scss */
+.jcarousel_wrapper--second .jcarousel__text--button {
+  margin-top: 258px;
+}
+
+/* line 546, ../sass/ie.scss */
+.jcarousel_wrapper--last {
+  margin-right: 0;
+}
+
+/* line 550, ../sass/ie.scss */
+.jcarousel__text {
+  width: 235px;
+  height: 400px;
+}
+
+/* line 555, ../sass/ie.scss */
+.jcarousel__text--button {
+  margin-top: 215px;
+}
+
+/* line 559, ../sass/ie.scss */
+.jcarousel__text--text {
+  width: 190px;
+}
+
+/* line 563, ../sass/ie.scss */
+.jcarousel_next {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  z-index: 3;
+}
+
+/* line 571, ../sass/ie.scss */
+.jcarousel_prev {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 4;
+}
+
+/* line 579, ../sass/ie.scss */
+.partners__container {
+  width: 500px;
+}
+
+/* line 583, ../sass/ie.scss */
+.partners {
+  margin-top: 95px;
+}
+
+/* line 587, ../sass/ie.scss */
+.partner-block {
+  float: left;
+  margin-right: 20px;
+  width: 235px;
+}
+
+/* line 593, ../sass/ie.scss */
+.partner-block--right {
+  margin-right: 0;
+}
+
+/* line 597, ../sass/ie.scss */
+.partners__button {
+  margin-top: 38px;
+}
+
+/* line 601, ../sass/ie.scss */
+.ideas {
+  width: 768px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 608, ../sass/ie.scss */
+.ideas__title {
+  margin: 95px 0 35px 0;
+}
+
+/* line 612, ../sass/ie.scss */
+.grid {
+  width: 768px;
+}
+
+/* line 616, ../sass/ie.scss */
+.grid--item {
+  width: 236px;
+}
+
+/* line 620, ../sass/ie.scss */
+.grid--item__width2 {
+  width: 492px;
+}
+
+/* line 624, ../sass/ie.scss */
+.search {
+  width: 420px;
+  margin-top: 95px;
+}
+
+/* line 629, ../sass/ie.scss */
+.search__form--text {
+  width: 225px;
+  margin: 0;
+  display: inline-block;
+}
+
+/* line 635, ../sass/ie.scss */
+.search__form--button {
+  width: 160px;
+  margin: 0 0 0 10px;
+  display: inline-block;
+}
+
+/* line 641, ../sass/ie.scss */
+footer {
+  margin-top: 100px;
+  padding: 0 39px 40px 39px;
+}
+
+/* line 646, ../sass/ie.scss */
+.footer__title {
+  float: left;
+  margin: 35px 85px 0 0;
+}
+
+/* line 651, ../sass/ie.scss */
+.footer__company {
+  float: left;
+  margin: 35px 85px 0 0;
+}
+
+/* line 656, ../sass/ie.scss */
+.footer__partners {
+  float: left;
+  margin-top: 35px;
+}
+
+/* line 660, ../sass/ie.scss */
+.footer__navigation {
+  width: 65px;
+}
+
+/* line 664, ../sass/ie.scss */
+.footer__navigation--link {
+  float: none;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* line 670, ../sass/ie.scss */
+.footer__logo {
+  float: right;
+  margin-top: 35px;
+}
+
+/* line 675, ../sass/ie.scss */
+.header__container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* line 679, ../sass/ie.scss */
+.how-it-works {
+  width: 940px;
+}
+
+/* line 683, ../sass/ie.scss */
+.jcarousel_wrapper {
+  width: 300px;
+  height: 400px;
+  margin-right: 13px;
+}
+
+/* line 688, ../sass/ie.scss */
+.jcarousel_wrapper li {
+  width: 300px;
+  height: 400px;
+}
+
+/* line 693, ../sass/ie.scss */
+.jcarousel__text--text {
+  width: 260px;
+}
+
+/* line 697, ../sass/ie.scss */
+.jcarousel_next {
+  top: 144px;
+  left: 260px;
+}
+
+/* line 702, ../sass/ie.scss */
+.jcarousel_prev {
+  top: 144px;
+  left: 10px;
+}
+
+/* line 707, ../sass/ie.scss */
+.partners__container {
+  width: 940px;
+}
+
+/* line 711, ../sass/ie.scss */
+.partner-block {
+  width: 220px;
+}
+
+/* line 715, ../sass/ie.scss */
+.partner-block--right {
+  margin-right: 5px;
+}
+
+/* line 719, ../sass/ie.scss */
+.partner-block--last {
+  margin-right: 0;
+}
+
+/* line 723, ../sass/ie.scss */
+.ideas {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 730, ../sass/ie.scss */
+.grid {
+  width: 940px;
+}
+
+/* line 734, ../sass/ie.scss */
+.grid--item {
+  width: 300px;
+}
+
+/* line 738, ../sass/ie.scss */
+.grid--item__width2 {
+  width: 620px;
+}
+
+/* line 742, ../sass/ie.scss */
+.footer__container {
+  position: relative;
+  overflow: hidden;
+  width: 940px;
+  margin: 0 auto;
+}
